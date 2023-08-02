@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Hanken Grotesk', sans-serif;
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@ body{
     font-size: 1.125rem;
     background-color: hsl(0, 0%, 100%);
 }
+
 body p {
     font-size: 18px;
 }
@@ -26,6 +27,7 @@ body p {
     border-radius: 1.7rem;
     box-shadow: 1rem 1.5rem 3rem .5rem hsl(221, 100%, 96%);
 }
+
 .idCard .box1 {
     text-align: center;
     width: 380px;
@@ -73,6 +75,7 @@ body p {
     padding: 0px 60px 0px 60px;
     color: hsla(222, 100%, 96%, 0.80);
 }
+
 h2 {
     font-size: 1.5rem;
     align-self: flex-start;
@@ -91,7 +94,7 @@ ul li {
     align-items: center;
     margin: 18px 0;
     padding: 15px;
-    border-radius: .7rem;   
+    border-radius: .7rem;
 }
 
 ul li img {
@@ -100,7 +103,7 @@ ul li img {
 
 ul li h3 {
     font-size: 1.14rem;
-    padding-right: 6.6rem;
+    padding-right: 4.0rem;
 }
 
 ul li p {
@@ -154,4 +157,18 @@ ul li span {
 
 #visual h3 {
     color: hsla(234, 85%, 45%);
+}
+
+.button {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 20px 7.0rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 18px 0px 0px 0px;
+    cursor: pointer;
 }
